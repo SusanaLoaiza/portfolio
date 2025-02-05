@@ -1,12 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="./client/assets/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>project!</title>
 
-    <link href="./styles/index.css" rel="stylesheet" />
-  </head>
-  <body></body>
+<head>
+  <meta charset="UTF-8" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="./styles.css" rel="stylesheet" />
+  <title>Susana's Portfolio</title>
+</head>
+
+<body>
+  <!--Navigation Bar-->
+
+  <header id="navbar-container">
+    <nav>
+      <ul class="links-menu">
+        <li class="home"><a href="#presentation-container">Home</a></li>
+        <li class="skills"><a href="#skills">Skills</a></li>
+        <li class="projects"><a href="#projects">Projects</a></li>
+        <li class="social"><a href="">Contact me </a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!--Presentation-->
+
+  <main>
+    <section id="presentation-container">
+      <div class="presentation-intro">
+        <p class="intro">👋Hi I'am</p>
+      </div>
+      <div class="presentation-intro">
+        <h1 class="name">Susana</h1>
+      </div>
+      <div class="presentation-image">
+        <img src="public/img/avatarsu.jpg" alt="" width="320px" height="300px" />
+      </div>
+      <div class="presentation-welcome">
+        <p class="welcome">Welcome to my Portfolio</p>
+      </div>
+    </section>
+
+    <!--Media-->
+
+    <div class="media-container">
+      <section>
+        <ul id="social-media">
+          <li>
+            <a href="https://hyfbe.slack.com/team/U060XSUAEBC">
+              <img class="slack" src="public/img/slack.png" width="80" height="80" alt="slack" />
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/SusanaLoaiza">
+              <img class="git" src="public/img/social.png" alt="git-icon" width="80" height="80" />
+            </a>
+          </li>
+        </ul>
+      </section>
+    </div>
+
+    <!--Skills-->
+
+    <section id="skills">
+      <ul class="skills">
+        <li>
+          <img src="public/img/css.png" alt="" width="80" height="80" />
+        </li>
+
+        <li>
+          <img src="public/img/git.png" alt="" width="80" height="80" />
+        </li>
+
+        <li>
+          <img src="public/img/html.png" alt="" width="80" height="80" />
+        </li>
+      </ul>
+    </section>
+
+    <!--Projects-->
+
+    <section id="projects">
+      <h2 class="title">Projects</h2>
+
+      <div id="projects-container">
+        <div class="project1-container">
+          <p class="project-1">Cat</p>
+          <a href="index.html"><img class="project1" src="public/img/cat.png" alt="Project1 screenshot" /></a>
+        </div>
+
+        <div class="project2-container">
+          <p class="project-2">Magazine</p>
+
+          <a href="index.html"><img class="project2" src="public/img/magazine.png" alt="Project2 screenshot" /></a>
+        </div>
+        <div class="project3-container">
+          <p class="project-3">Balance sheets</p>
+
+          <a href="index.html"><img class="project3" src="public/img/balance.png" alt="Project3 screenshot" /></a>
+        </div>
+        <div class="project4-container">
+          <p class="project-4">Cafe Menu</p>
+
+          <a href="index.html"><img class="project4" src="public/img/cafe.png" alt="Project3 screenshot" /></a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact-container">
+      <div id="contact-group">
+        <p>Contact me</p>
+
+        <form class="my-form" action="your-email-handler.php" method="post">
+          <input type="text" id="name" name="name" placeholder="Type your full name*" required />
+
+          <input type="text" id="email" placeholder="email address*" required />
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+
+          <button type="submit">Send Message</button>
+        </form>
+        <img class="contact-img" src="public/img/susanaprofile.jpg" alt="" width="380px" height="450px" />
+      </div>
+    </section>
+  </main>
+
+  <footer></footer>
+</body>
+
 </html>

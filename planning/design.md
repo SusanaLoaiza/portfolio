@@ -1,17 +1,10 @@
 # Design
 
+Susana's portfolio features their early work in web development. It showcases
+their growing skills in HTML, CSS, and design, with a focus on creating clean
+and simple websites. Take a look at their progress and projects as they continue
+to learn and develop."
+
 ## Project's design overview
 
-> Give an overview of your project's design
-
-<!-- give an overview of your project's design -->
-<!-- describe the reasoning behind your group's design and wireframe -->
-<!-- include other centralized decisions like fonts, palates, ... -->
-
----
-
-## Wireframe(s)
-
-> Include your wireframe(s) and link to wireframe
-
-<!-- provide a link to your wireframe documenting on Figma, or wherever it is -->
+![portfolio design](../public/designportfolio.png)
