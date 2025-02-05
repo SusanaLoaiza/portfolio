@@ -2,15 +2,15 @@
 
 ## Must-Haves
 
-- [ ] As a user, I want to see the `Side-Bar` so that i can have an idea in what
-      type of website i am and navigate through the information of the
-      portfolio.
+- [ ] As a user, I want to see the `Nav-Bar` so that i can have an idea in what
+      type of website i am and navigate through the information.
 
 - [ ] As a user, I want to see the `Presentation` so I can get a overview and
       get to know better who the portfolio is about.
 
 - [ ] As a user, I want to see the `Media` so that I can checkout the social
       media of the developer.
+
 - [ ] As a user, I want to know the `skills` so that i can see what type of
       skills has the developer.
 
